@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFD872E16B0442200FAEB29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFD872D16B0442200FAEB29 /* Cocoa.framework */; };
+		BFFD873816B0442200FAEB29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFFD873616B0442200FAEB29 /* InfoPlist.strings */; };
+		BFFD873A16B0442200FAEB29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD873916B0442200FAEB29 /* main.m */; };
+		BFFD873E16B0442200FAEB29 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BFFD873C16B0442200FAEB29 /* Credits.rtf */; };
+		BFFD874116B0442200FAEB29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD874016B0442200FAEB29 /* AppDelegate.m */; };
+		BFFD874416B0442200FAEB29 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFD874216B0442200FAEB29 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFFD872916B0442200FAEB29 /* Password policy tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password policy tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFD872D16B0442200FAEB29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BFFD873016B0442200FAEB29 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BFFD873116B0442200FAEB29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BFFD873216B0442200FAEB29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFFD873516B0442200FAEB29 /* Password policy tool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Password policy tool-Info.plist"; sourceTree = "<group>"; };
+		BFFD873716B0442200FAEB29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFFD873916B0442200FAEB29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFFD873B16B0442200FAEB29 /* Password policy tool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Password policy tool-Prefix.pch"; sourceTree = "<group>"; };
+		BFFD873D16B0442200FAEB29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BFFD873F16B0442200FAEB29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFFD874016B0442200FAEB29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFFD874316B0442200FAEB29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFFD872616B0442100FAEB29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFD872E16B0442200FAEB29 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFFD871E16B0442100FAEB29 = {
+			isa = PBXGroup;
+			children = (
+				BFFD873316B0442200FAEB29 /* Password policy tool */,
+				BFFD872C16B0442200FAEB29 /* Frameworks */,
+				BFFD872A16B0442200FAEB29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFD872A16B0442200FAEB29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFD872916B0442200FAEB29 /* Password policy tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFD872C16B0442200FAEB29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFFD872D16B0442200FAEB29 /* Cocoa.framework */,
+				BFFD872F16B0442200FAEB29 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFFD872F16B0442200FAEB29 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFFD873016B0442200FAEB29 /* AppKit.framework */,
+				BFFD873116B0442200FAEB29 /* CoreData.framework */,
+				BFFD873216B0442200FAEB29 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BFFD873316B0442200FAEB29 /* Password policy tool */ = {
+			isa = PBXGroup;
+			children = (
+				BFFD873F16B0442200FAEB29 /* AppDelegate.h */,
+				BFFD874016B0442200FAEB29 /* AppDelegate.m */,
+				BFFD874216B0442200FAEB29 /* MainMenu.xib */,
+				BFFD873416B0442200FAEB29 /* Supporting Files */,
+			);
+			path = "Password policy tool";
+			sourceTree = "<group>";
+		};
+		BFFD873416B0442200FAEB29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFFD873516B0442200FAEB29 /* Password policy tool-Info.plist */,
+				BFFD873616B0442200FAEB29 /* InfoPlist.strings */,
+				BFFD873916B0442200FAEB29 /* main.m */,
+				BFFD873B16B0442200FAEB29 /* Password policy tool-Prefix.pch */,
+				BFFD873C16B0442200FAEB29 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFFD872816B0442100FAEB29 /* Password policy tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFD874716B0442200FAEB29 /* Build configuration list for PBXNativeTarget "Password policy tool" */;
+			buildPhases = (
+				BFFD872516B0442100FAEB29 /* Sources */,
+				BFFD872616B0442100FAEB29 /* Frameworks */,
+				BFFD872716B0442100FAEB29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password policy tool";
+			productName = "Password policy tool";
+			productReference = BFFD872916B0442200FAEB29 /* Password policy tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFD872016B0442100FAEB29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hickey, Jimmy";
+			};
+			buildConfigurationList = BFFD872316B0442100FAEB29 /* Build configuration list for PBXProject "Password policy tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFFD871E16B0442100FAEB29;
+			productRefGroup = BFFD872A16B0442200FAEB29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFFD872816B0442100FAEB29 /* Password policy tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFFD872716B0442100FAEB29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFD873816B0442200FAEB29 /* InfoPlist.strings in Resources */,
+				BFFD873E16B0442200FAEB29 /* Credits.rtf in Resources */,
+				BFFD874416B0442200FAEB29 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFD872516B0442100FAEB29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFD873A16B0442200FAEB29 /* main.m in Sources */,
+				BFFD874116B0442200FAEB29 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFFD873616B0442200FAEB29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFD873716B0442200FAEB29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFFD873C16B0442200FAEB29 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFD873D16B0442200FAEB29 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BFFD874216B0442200FAEB29 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFD874316B0442200FAEB29 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFFD874516B0442200FAEB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFFD874616B0442200FAEB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFFD874816B0442200FAEB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Password policy tool/Password policy tool-Prefix.pch";
+				INFOPLIST_FILE = "Password policy tool/Password policy tool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFFD874916B0442200FAEB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Password policy tool/Password policy tool-Prefix.pch";
+				INFOPLIST_FILE = "Password policy tool/Password policy tool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFFD872316B0442100FAEB29 /* Build configuration list for PBXProject "Password policy tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFD874516B0442200FAEB29 /* Debug */,
+				BFFD874616B0442200FAEB29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFD874716B0442200FAEB29 /* Build configuration list for PBXNativeTarget "Password policy tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFD874816B0442200FAEB29 /* Debug */,
+				BFFD874916B0442200FAEB29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFFD872016B0442100FAEB29 /* Project object */;
+}
