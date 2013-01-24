@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface TableDelegate : NSObject
-
+@property (strong) NSMutableArray *userNames;
+@property (weak) IBOutlet NSTextField *outputBox;
+@property (weak) IBOutlet NSTableView *tableView;
 @end

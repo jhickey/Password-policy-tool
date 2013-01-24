@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface PasswordPolicyManager : NSObject
+{
+        NSTask *task;
+        NSPipe *pipe;
+        NSFileHandle *file;
+}
+
+-(NSString *) getPolicyWithUser:(NSString *)user;
 
 @end

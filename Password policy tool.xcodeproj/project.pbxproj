@@ -13,6 +13,8 @@
 		BFFD873E16B0442200FAEB29 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BFFD873C16B0442200FAEB29 /* Credits.rtf */; };
 		BFFD874116B0442200FAEB29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD874016B0442200FAEB29 /* AppDelegate.m */; };
 		BFFD874416B0442200FAEB29 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFD874216B0442200FAEB29 /* MainMenu.xib */; };
+		EC79FBE616B0C9B900BEDA26 /* TableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC79FBE516B0C9B900BEDA26 /* TableDelegate.m */; };
+		EC79FBEF16B0E19400BEDA26 /* PasswordPolicyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC79FBEE16B0E19400BEDA26 /* PasswordPolicyManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		BFFD873F16B0442200FAEB29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFFD874016B0442200FAEB29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BFFD874316B0442200FAEB29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC79FBE416B0C9B900BEDA26 /* TableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDelegate.h; sourceTree = "<group>"; };
+		EC79FBE516B0C9B900BEDA26 /* TableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDelegate.m; sourceTree = "<group>"; };
+		EC79FBED16B0E19400BEDA26 /* PasswordPolicyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PasswordPolicyManager.h; path = ../PasswordPolicyManager.h; sourceTree = "<group>"; };
+		EC79FBEE16B0E19400BEDA26 /* PasswordPolicyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PasswordPolicyManager.m; path = ../PasswordPolicyManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +88,13 @@
 		BFFD873316B0442200FAEB29 /* Password policy tool */ = {
 			isa = PBXGroup;
 			children = (
+				EC79FBED16B0E19400BEDA26 /* PasswordPolicyManager.h */,
+				EC79FBEE16B0E19400BEDA26 /* PasswordPolicyManager.m */,
 				BFFD873F16B0442200FAEB29 /* AppDelegate.h */,
 				BFFD874016B0442200FAEB29 /* AppDelegate.m */,
 				BFFD874216B0442200FAEB29 /* MainMenu.xib */,
+				EC79FBE416B0C9B900BEDA26 /* TableDelegate.h */,
+				EC79FBE516B0C9B900BEDA26 /* TableDelegate.m */,
 				BFFD873416B0442200FAEB29 /* Supporting Files */,
 			);
 			path = "Password policy tool";
@@ -168,6 +178,8 @@
 			files = (
 				BFFD873A16B0442200FAEB29 /* main.m in Sources */,
 				BFFD874116B0442200FAEB29 /* AppDelegate.m in Sources */,
+				EC79FBE616B0C9B900BEDA26 /* TableDelegate.m in Sources */,
+				EC79FBEF16B0E19400BEDA26 /* PasswordPolicyManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				BFFD874916B0442200FAEB29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
